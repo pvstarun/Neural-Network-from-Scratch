@@ -1,3 +1,6 @@
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![NumPy](https://img.shields.io/badge/NumPy-Framework-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
 # Deep Learning Framework from Scratch using NumPy
 
 A modular deep learning framework implemented entirely from scratch using **Python** and **NumPy**, without relying on deep learning libraries such as TensorFlow or PyTorch.
