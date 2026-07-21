@@ -1,0 +1,145 @@
+<p align="center">
+  <img src="docs/banner.png" width="900">
+</p>
+
+# Deep Learning Framework from Scratch using NumPy
+
+A modular deep learning framework implemented entirely from scratch using **Python** and **NumPy**, without relying on deep learning libraries such as TensorFlow or PyTorch.
+
+The project demonstrates the complete implementation of the fundamental building blocks of modern deep learning, including forward propagation, backpropagation and optimization algorithms. 
+
+---
+
+## Features
+
+### Core Layers
+- Base Layer
+- Fully Connected (Dense) Layer
+
+### Activation Functions
+- ReLU
+- SoftMax
+
+### Loss Functions
+- Cross Entropy Loss
+
+### Optimization Algorithms
+- Stochastic Gradient Descent (SGD)
+
+### Other Components
+- Neural Network Training Pipeline
+- Forward & Backward Propagation
+- Gradient Checking
+- Weight Updates
+- Data Handling Utilities
+
+---
+
+## Repository Structure
+
+```text
+Neural-Network-From-Scratch
+│
+├── Layers/
+├── Optimization/
+├── Initializers/
+├── NeuralNetwork.py
+├── NeuralNetworkTests.py
+├── README.md
+└── requirements.txt
+```
+
+---
+
+## Concepts Implemented
+
+This project covers the implementation of:
+
+- Feed Forward Neural Networks
+- Backpropagation
+- Chain Rule
+- Gradient Descent
+- Jacobian Computation
+- Gradient Checking
+
+---
+
+## How It Works
+
+Training follows the standard deep learning pipeline:
+
+```text
+Input
+   │
+   ▼
+Forward Propagation
+   │
+   ▼
+Loss Computation
+   │
+   ▼
+Backpropagation
+   │
+   ▼
+Gradient Calculation
+   │
+   ▼
+Optimizer Update
+   │
+   ▼
+Updated Parameters
+```
+
+---
+
+## Technologies Used
+
+- Python
+- NumPy
+- SciPy
+- Matplotlib
+- scikit-learn
+
+---
+
+## Learning Outcomes
+
+Through this project, I developed a strong understanding of:
+
+- Mathematical foundations of deep learning
+- Manual implementation of forward and backward propagation
+- Gradient computation using the chain rule
+- Numerical gradient checking
+- Designing a modular deep learning framework
+
+---
+
+## Future Improvements
+- Convolution Operations
+- Pooling Operations
+- Batch Normalization
+- Regularization
+- Weight Initialization
+- Sequence Modeling using RNNs
+- Long Short-Term Memory Networks (LSTMs)
+- Attention Mechanisms
+- Transformer Architecture
+- Multi-Head Attention
+- Residual Networks (ResNet)
+- GPU Acceleration
+- Automatic Mixed Precision
+- Additional Optimizers
+- Model Serialization
+- Support for Custom Datasets
+
+---
+
+## Acknowledgements
+
+This project was developed as part of the **Deep Learning** coursework at **Friedrich-Alexander University Erlangen-Nürnberg (FAU)**. The framework was implemented from scratch for educational purposes to gain an in-depth understanding of modern deep learning algorithms and architectures.
+
+---
+
+## License
+
+This project is licensed under the MIT License.
