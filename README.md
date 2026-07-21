@@ -73,6 +73,17 @@ This project covers the implementation of:
 
 ---
 
+## Mathematical Foundations
+
+The implementation is based on
+
+- Chain Rule
+- Matrix Calculus
+- Jacobians
+- Gradient Descent
+- Numerical Differentiation
+- Mini-Batch Learning
+
 ## How It Works
 
 Training follows the standard deep learning pipeline:
