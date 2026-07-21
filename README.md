@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="docs/banner.png" width="900">
-</p>
-
 # Deep Learning Framework from Scratch using NumPy
 
 A modular deep learning framework implemented entirely from scratch using **Python** and **NumPy**, without relying on deep learning libraries such as TensorFlow or PyTorch.
