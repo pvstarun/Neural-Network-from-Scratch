@@ -70,6 +70,9 @@ Neural-Network-from-Scratch/
 │   │   ├── __init__.py
 │   │   ├── Loss.py
 │   │   └── Optimizers.py
+│
+├── Output/
+│   ├── Loss Function Iris SGD.png
 
 ```
 
