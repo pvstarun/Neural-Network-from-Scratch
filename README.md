@@ -149,6 +149,22 @@ Through this project, I developed a strong understanding of:
 
 ---
 
+## Training Results
+
+The figure below shows the training loss of the neural network on the Iris dataset using Stochastic Gradient Descent (SGD). The steadily decreasing loss demonstrates that the implemented forward propagation, backpropagation, and parameter update pipeline are functioning correctly.
+
+<p align="center">
+    <img width="640" height="480" alt="Loss Function Iris SGD" src="https://github.com/user-attachments/assets/e33f01cd-066c-439f-ab3a-738ec2326e01" />
+</p>
+
+*Figure 1: Training loss over 4000 iterations on the Iris dataset using SGD.*
+
+### Discussion
+
+- The loss decreases rapidly during the first few hundred iterations.
+- As training progresses, the optimization converges to a lower loss.
+- This confirms the correctness of the implemented forward pass, backpropagation, and SGD optimizer.
+
 ## Future Improvements
 - Convolution Operations
 - Pooling Operations
